@@ -1,0 +1,41 @@
+h1,h2{	}
+#header p{	}
+继承
+class类(可以多个标签一个类，也可以一个标签多个类，当一个标签多个类时，使用最靠后的样式）
+<p class="blog"></p>
+p.blog
+.blog
+
+background-color背景颜色
+background-image:url(images/bg.jpg);背景图像
+background-repeat:no-repeat;背景不重复
+background-position:top left;背景位置
+background:white url(images/bg.jpg) no-repeat;
+color字体颜色
+font-family字体
+font-size字体大小
+font-weight字体粗细
+font-style字体样式
+font:font-style font-variant font-weight font-size/line-height font-family;(缩写)
+text-align文本对齐样式
+text-decoration文本样式
+border边框
+border-color边框颜色
+border-top-color
+border-width边框像素
+border-left-style
+border-bottom下边框（下划线）
+border-right-width
+border:black solid thin;(缩写，顺序随便)
+line-height行间距
+padding补白（内边距(缩写，上、右、下、左)）
+padding-left
+margin边界（外边距(缩写，上、右、下、左)）
+margin-right
+width内容区宽度
+height内容区高度
+a:link(color:;)
+a:visited(color:;)
+a:hover(color:;)
+float:right;浮动
+clear:right;

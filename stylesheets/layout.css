@@ -1,0 +1,13 @@
+.woman{color:red;}
+#saw{color:blue;}
+
+[name]{color:brown;}
+[name="iron"]{color:green;}
+p[name^="core"]{color:red;}
+p[name$="core"]{color:blue;}
+p[name*="core"]{background:yellow;}
+
+p:nth-child(odd){color:#8A2BE2;}
+p:nth-child(even){color:#7FFF00;}
+p:nth-child(5){color:#FF00FF;}
+*[color:blue;]
